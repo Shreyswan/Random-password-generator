@@ -14,7 +14,7 @@ Here are some **Salient features**:
 
 How to use??
 1. Download or clone the repository using 
-```git clone <REPO_LINK>``` command in your terminal/command prompt
+```git clone https://github.com/Shreyswan/Random-password-generator.git``` command in your terminal/command prompt
 2. Next open the .py file and run it as per your passwrod requirements.
 3. Change the "type" variable in function call for **generate_password** to generate a password of your liking. 
 supported types are:

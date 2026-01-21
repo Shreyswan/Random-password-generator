@@ -25,3 +25,5 @@ supported types are:
 
 Excited to use??? 😆😆
 I know you are, what are you waiting for?? Go generate those passwords!!
+
+(PS: front-end coming soon!! (real soon) 👀👀)

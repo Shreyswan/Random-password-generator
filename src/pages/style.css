@@ -1,0 +1,110 @@
+@keyframes softColorShift {
+  0% {
+    color: aquamarine;
+  }
+
+  50% {
+    color: blueviolet;
+  }
+
+  75% {
+    color: coral;
+  }
+
+  100% {
+    color: aquamarine;
+  }
+}
+
+.h1-heading-style {
+  text-align: center;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.h5-heading-style {
+  text-align: left;
+  font-family:
+    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.para-center-alignment {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+}
+
+.para-left-alignment {
+  text-align: justify;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.para-left-alignment-green {
+  text-align: justify;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(26, 135, 84);
+}
+
+.color-shift {
+  animation: softColorShift 3s ease-in-out infinite;
+}
+
+.features-card {
+  width: 18rem;
+  background-color: black;
+  border-radius: 5px;
+}
+
+.hr-accent {
+  border-bottom: 3px solid;
+}
+
+.button-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-element::-moz-range-thumb {
+  background-color: rgb(138, 43, 226);
+}
+
+.alert-dark-glow {
+  background: linear-gradient(135deg, #0b1220, #0f172a);
+
+  color: #9ae6b4;
+
+  border-radius: 14px;
+  justify-content: center;
+  align-items: center;
+
+  border: 1px solid rgba(154, 230, 180, 0.25);
+
+  transition: transform 0.3s ease-in-out;
+
+  padding: 1.25rem 1.5rem;
+}
+
+.alert-dark-glow:hover {
+  box-shadow:
+    inset 0 0 0 1px rgba(111, 31, 177),
+    0 12px 32px rgb(0, 0, 0);
+
+  transform: translateY(-2px);
+}
+
+.change-pointer {
+  cursor: pointer;
+}
+
+.success-modal-backdrop {
+  backdrop-filter: blur(5px);
+  background-color: transparent;
+  opacity: 1;
+}
+
+.success-modal-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

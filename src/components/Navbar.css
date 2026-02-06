@@ -1,0 +1,8 @@
+.navbar-accent{
+    border-bottom: 3px solid;
+    border-color: rgb(109, 45, 241);
+}
+
+.change-pointer{
+    cursor: pointer;
+}

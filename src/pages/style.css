@@ -21,11 +21,9 @@
   font-family: "Courier New", Courier, monospace;
 }
 
-.h5-heading-style {
+.h4-heading-style {
   text-align: left;
-  font-family:
-    "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .para-center-alignment {
@@ -107,4 +105,46 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.text-input {
+  background-color: black;
+  border-radius: 5px;
+}
+
+.dot-matrix {
+  display: grid;
+  /* This forces exactly 12 columns, preventing the "block" look */
+  grid-template-columns: repeat(12, 1fr);
+  gap: 5px;
+  margin: 15px 0;
+  width: 100%;
+}
+
+/* Individual dots */
+.dot {
+  height: 8px; /* Thick enough to see, thin enough to look like a bar segment */
+  background: #1a1a1a; /* Dark gray for "off" state */
+  border-radius: 1px;
+  transition: all 0.3s ease;
+}
+
+/* When a dot is active */
+.dot.active {
+  background: var(--active-color);
+  box-shadow:
+    0 0 8px var(--active-color),
+    0 0 15px var(--active-color);
+}
+
+/* Panel styling */
+.status-panel {
+  font-family: "Courier New", monospace;
+  margin-top: 5px;
+  font-size: 0.75rem;
+}
+
+.time-label {
+  letter-spacing: 1px;
+  font-weight: bold;
 }

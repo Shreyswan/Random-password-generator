@@ -26,4 +26,7 @@ supported types are:
 Excited to use??? 😆😆
 I know you are, what are you waiting for?? Go generate those passwords!!
 
-(PS: front-end coming soon!! (real soon) 👀👀)
+Version Update:
+## Introducing.... React front-end!!! 🎊🎊🎊🎊
+
+Yesss its finally here and its never been better, check out the front-end app by cloning the git repo and get those passwords baking, chef 🧑‍🍳.

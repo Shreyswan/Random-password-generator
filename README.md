@@ -37,7 +37,6 @@ Yesss its finally here and its never been better, check out the front-end app by
 # Version Update:
 
 ## Introducing v1.1
-
 New feature introduced: zxcvbn password strength checker
 What good a password generator when we aren't sure if the passwords being generated are even good or not??
 Thus, here comes zxcvbn to save the day 💪!!
